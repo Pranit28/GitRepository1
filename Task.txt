@@ -1,0 +1,35 @@
+For view vwC_HRQualif_ejourney :
+1) Analysis of view vwC_HRQualif_ejourney to use Revdate for getting the delta load for insert and updated records. - 5
+2) Impact Analysis of table tblsap_HRQualif (find all the files where we are deleting the certification 
+from this table and check if we need to include in our new table for deleted flag to include in ejourney view) - 6
+3) Development of view vwC_HRQualif_ejourney - 8
+4) Unit testing of view vwC_HRQualif_ejourney - 5
+5) Testing of view vwC_HRQualif_ejourney  with SIMS and Ejourney - 5
+6) Creating new table to save the deleted records with  columns such as gin number, cert id and a flag (to identity the deleted records). - 2
+7) Test case Design - 3
+8) Test Case execution - 5
+
+For view vw_Personnels_eJourney :
+1) Analysis of view vw_Personnels_eJourney to check if we can have a delta load instead of full load - 4
+2) Impact Analysis of view vw_Personnels_eJourney - 6
+3) Development of view vw_Personnels_eJourney - 6
+4) Unit testing of view vw_Personnels_eJourney - 3
+5) Testing of view vw_Personnels_eJourney with SIMS and Ejourney - 5
+7) Test case Design - 3
+8) Test Case execution - 5
+
+For view vw_ExPersonnels_eJourney :
+1) Analysis of view vw_ExPersonnels_eJourney to check if we can have a delta load instead of full load - 4 
+2) Impact Analysis of view vw_ExPersonnels_eJourney - 6 
+3) Development of view vw_ExPersonnels_eJourney - 6
+4) Unit testing of view vw_ExPersonnels_eJourney - 3
+5) Testing of view vw_ExPersonnels_eJourney with SIMS and Ejourney - 5
+7) Test case Design - 3
+8) Test Case execution - 5
+
+lnd.in@capgemini.com
+
+Code Review - 5
+
+
+108hrs
